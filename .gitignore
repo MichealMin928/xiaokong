@@ -1,0 +1,42 @@
+# Local development and private acceptance data
+.gradle/
+.kotlin/
+.tools/
+.idea/
+.cache/
+local.properties
+**/build/
+*.iml
+.DS_Store
+__pycache__/
+*.pyc
+.venv/
+.env
+.env.*
+*.jks
+*.keystore
+*signing*.properties
+/evidence/
+/checkpoints/
+/releases/
+/app/src/privateTest/
+/app/src/debug/assets/
+/app/src/test/resources/
+
+# Downloaded artifacts are pinned in config/artifacts.json, not stored in Git.
+*.aar
+*.apk
+*.aab
+*.onnx
+*.task
+*.wav
+
+# Historical internal documents and device-specific scripts stay on this machine.
+/docs/*
+!/docs/public/
+/scripts/*
+!/scripts/fetch-artifacts.py
+!/scripts/check-public-tree.py
+!/scripts/build-command-pronunciation.py
+!/scripts/verify-apk.py
+!/scripts/tests/

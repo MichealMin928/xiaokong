@@ -1,0 +1,10 @@
+<resources>
+    <style name="Theme.XiaoKong" parent="android:style/Theme.Material.Light.NoActionBar">
+        <item name="android:fontFamily">sans</item>
+        <item name="android:colorAccent">#107565</item>
+        <item name="android:windowLightStatusBar">true</item>
+        <item name="android:navigationBarColor">#F5F7F3</item>
+        <item name="android:windowBackground">#F5F7F3</item>
+    </style>
+    <color name="launcher_background">#142E30</color>
+</resources>

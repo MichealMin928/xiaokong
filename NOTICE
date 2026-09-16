@@ -1,0 +1,10 @@
+XiaoKong 小空
+Copyright 2026 XiaoKong contributors
+
+Original project code and documentation are licensed under Apache License 2.0.
+This notice does not replace or modify third-party licenses.
+
+Third-party components, model sources, and licenses are listed in
+THIRD_PARTY_NOTICES.md and app/src/main/assets/licenses/.
+Model weights are downloaded from their respective upstream projects.
+Names and trademarks remain with their respective owners; no endorsement is implied.

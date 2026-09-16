@@ -1,0 +1,23 @@
+name: 建议或贡献 / Proposal
+description: 使用需求、文档、无障碍体验或开发提案
+title: "[Proposal] "
+labels: [enhancement, needs-triage]
+body:
+  - type: textarea
+    id: problem
+    attributes:
+      label: 想解决什么使用问题？
+    validations:
+      required: true
+  - type: textarea
+    id: proposal
+    attributes:
+      label: 建议的行为和验收方式
+      description: 如果涉及识别、权限、模型或数据，请说明对误触、耗电和隐私的影响。
+    validations:
+      required: true
+  - type: dropdown
+    id: participation
+    attributes:
+      label: 希望怎样参与？
+      options: [提供使用反馈, 帮助测试, 改善文档, 提交代码, 先讨论]

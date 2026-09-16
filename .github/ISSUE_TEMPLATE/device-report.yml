@@ -1,0 +1,36 @@
+name: 设备测试 / Device report
+description: 不写代码也能参与，提交成功和失败结果
+title: "[Device] "
+labels: [device-report, needs-triage]
+body:
+  - type: input
+    id: device
+    attributes:
+      label: 机型、Android 版本与 App 版本
+      description: 不要填写序列号或账号信息。
+    validations:
+      required: true
+  - type: textarea
+    id: results
+    attributes:
+      label: 测试结果
+      description: 请参考 docs/public/TESTING.md；未测试的项目写未测试。
+      value: |
+        环境 / 模式：
+        回到桌面（成功/尝试）：
+        显示按钮及编号点击（成功/尝试）：
+        连续 10 次上滑（成功/尝试）：
+        手势上下左右（成功/尝试）：
+        食指光标和拇指双靠近：
+        收手额外误触次数：
+        锁屏后相机/麦克风状态：
+        发热/耗电测试时长及结果：
+    validations:
+      required: true
+  - type: checkboxes
+    id: privacy
+    attributes:
+      label: 公开内容检查
+      options:
+        - label: 结果是真实观察，未测试项已注明，未附私人记录或设备标识。
+          required: true
